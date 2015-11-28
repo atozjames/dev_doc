@@ -9,5 +9,11 @@ git tip
 
 5.git status -s : 상태를 간략히 표시
 
-6.Staging Arear 생략
+6.Staging Arear 생략하고 바로 커밋 하기
   git commit -a -m "comment"
+
+7.git rm \*~ 디렉토리에 있는 모든 파일 삭제
+
+8.git rm 파일명
+
+9.$ git log -p -2 / 두개 파일을 비교해서 작업 로그를 보여줌
