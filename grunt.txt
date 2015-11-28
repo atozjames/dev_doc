@@ -1,0 +1,29 @@
+grunt사용 법
+
+1.make folder
+2.npm init--->package.json make
+3.npm install grunt --save-dev grunt
+4.npm i grunt-contrib-uglify --save-dev
+5.npm i grunt-contrib-jshint --save-dev --.>javascript hitnt  NpmTask로 호출하는내용 
+
+
+**sample file"
+
+module.export=functon(grunt){
+
+	grunt.initConfig({
+		jshint:{
+			all:['*.js']
+		},
+		uglify:{
+			dist:{
+				src:'myfile.js',
+				dest:'myfile.min.js'
+			}
+		}
+	});
+
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrub-jshint');
+	grunt.registerTask('default',['jshint,'uglify']);
+};
