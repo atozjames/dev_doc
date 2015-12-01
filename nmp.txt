@@ -1,0 +1,3 @@
+nmp tip
+
+npm cashe clear //npm 패키지 지우고 다시 설치할떄
