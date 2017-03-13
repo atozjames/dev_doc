@@ -25,3 +25,14 @@ git config --global credential.helper wincred
 
 git config --global user.name "Atozjames"
 git config --global user.email atozjames@gmail.com
+
+git clone 원격 저장소 또는 로컬저장소
+
+
+작업순서
+1.파일 수정
+2.수정된 파일 git add 로 인데싱
+3.수정된 파일 commit  git commit -m '수정된 내용 작성'
+
+4.원격저장소에 저장 올리기
+git push orign master
