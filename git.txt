@@ -40,8 +40,10 @@ git push orign master
 5.github 데이터 가져오기
 git pull
 
+서브라임 에서 git 사용
 
-너무 번거롭디. 그리고 어렵다.
+ctrl+shift+p 하고 git명령어 작업
+
 
 
 
