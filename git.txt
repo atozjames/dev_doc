@@ -23,7 +23,7 @@ git tip
 패스워드 저장
 git config --global credential.helper wincred
 
-git config --global user.name "Atozjames"
+git config --global user.name "atozjames"
 git config --global user.email atozjames@gmail.com
 
 git clone 원격 저장소 또는 로컬저장소
@@ -37,4 +37,10 @@ git clone 원격 저장소 또는 로컬저장소
 4.원격저장소에 저장 올리기
 git push orign master
 
-i can't write file
+5.github 데이터 가져오기
+git pull
+
+
+
+
+
