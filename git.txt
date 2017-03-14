@@ -41,6 +41,7 @@ git push orign master
 git pull
 
 
+너무 번거롭디. 그리고 어렵다.
 
 
 
